@@ -15,3 +15,10 @@ Python, pandas, scikit-learn (Google Colab)
 ## Limitations and next steps
 - The roles table is small (12 roles) and written by hand
 - Next: add more roles and real internship data
+  
+## Example
+- Student skills: Python, SQL, pandas
+- Target role: Data Analyst
+- Match score: 0.62
+- Missing skills: Tableau, Excel, statistics
+
