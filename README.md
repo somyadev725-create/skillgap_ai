@@ -19,6 +19,14 @@ Python, pandas, scikit-learn (Google Colab)
 ## Example
 - Student skills: Python, SQL, pandas
 - Target role: Data Analyst
-- Match score: 0.62
-- Missing skills: Tableau, Excel, statistics
+- Match score: 63%
+- Missing skills: excel, data visualization, statistics
+
+## Evaluation
+I tested the matcher on 10 hand-written sample student profiles (3-4 skills each).
+- Top-1 accuracy: 9/10
+- Top-3 accuracy: 10/10
+- One miss: "linux, networking, python" was matched to Cloud Engineer instead of Cybersecurity Intern, because both roles share those skills.
+
+Limitation: the test set is small and written by me, so this is a sanity check, not a full evaluation.
 
